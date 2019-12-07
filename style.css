@@ -37,7 +37,11 @@ body{
     color: white;
     text-align: center;
 }
-
+@media only screen and (max-width:900px){
+    .container{
+        width:fit-content;
+    }
+} 
 
 .head1{
     font-size: 40px;
