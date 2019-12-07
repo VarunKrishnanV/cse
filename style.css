@@ -22,6 +22,8 @@ body{
                 url(comp1.jpg) no-repeat center center fixed;
     background-size: cover;              
     height: 50vh;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 94%, 75% 94%, 64% 89%, 0 100%, 0 0);
+
     position: relative;
 }
 
