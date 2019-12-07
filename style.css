@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    position: relative;
+    background-color: yellow;
+    margin: 10px;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 250px;
+}
+
+.maincontainer
+{
+    background: #870000; 
+    background: linear-gradient(to top, rgba(25, 10, 5, 0.568), #87000085),
+                url(comp1.jpg) no-repeat center center fixed;
+    background-size: cover;              
+    height: 50vh;
+    position: relative;
+}
+
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
+
+
+.head1{
+    font-size: 40px;
+}
+
+@media only screen and (max-width:900px){
+    .head1{
+        font-size: 35px;
+    }
+}
+
+.head2{
+    font-size: 35px;
+}
+
+@media only screen and (max-width:900px){
+    .head2{
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
